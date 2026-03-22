@@ -1,0 +1,29 @@
+{
+  "skill_name": "flightphp",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "How do I set up route parameters in FlightPHP? I want to create a route like /user/:id that captures the user ID.",
+      "expected_output": "Should explain route parameters and provide working code example with Flight::route()",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Can you show me how to create middleware in FlightPHP for authentication? I want to protect certain routes.",
+      "expected_output": "Should provide middleware code example showing how to register and use middleware in FlightPHP",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I'm getting a 'Route not found' error in my FlightPHP app even though I defined the route. What could be wrong?",
+      "expected_output": "Should help debug the issue - check route order, proper route definition, matching HTTP method",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "I have a custom PHP MVC with a UserController class that has a show($id) method and a User model with find($id). How would I convert this to FlightPHP?",
+      "expected_output": "Should ask to see the existing code first (code review), then provide FlightPHP migration example showing Flight::route() and model pattern",
+      "files": []
+    }
+  ]
+}
