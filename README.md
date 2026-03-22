@@ -28,10 +28,10 @@ npx skills add btafoya/flightphp-skill
 
 ```bash
 # Install for Claude Code
-ctx7 skills install btafoya/flightphp-skill flightphp --claude
+npx ctx7 skills install btafoya/flightphp-skill flightphp --claude
 
 # Or install globally
-ctx7 skills install btafoya/flightphp-skill flightphp --global
+npx ctx7 skills install btafoya/flightphp-skill flightphp --global
 ```
 
 ## Usage
