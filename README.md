@@ -24,10 +24,14 @@ cp -r flightphp-skill ~/.claude/plugins/skills/flightphp
 npx skills add btafoya/flightphp-skill
 ```
 
-### ctxt (Context7 CLI)
+### ctx7 (Context7 CLI)
 
 ```bash
-ctxt skills install btafoya/flightphp-skill
+# Install for Claude Code
+ctx7 skills install btafoya/flightphp-skill --claude
+
+# Or install globally
+ctx7 skills install btafoya/flightphp-skill --global
 ```
 
 ## Usage
