@@ -11,11 +11,21 @@ A Claude Code skill for working with [Flight](https://flightphp.com) - a fast, s
 
 ## Installation
 
-### Claude Code
+### Claude Code (Manual)
 
 ```bash
+# Clone the repository
+gh repo clone btafoya/flightphp-skill
+
 # Copy skill to your plugins directory
 cp -r flightphp-skill ~/.claude/plugins/skills/flightphp
+```
+
+### GitHub CLI (gh)
+
+```bash
+# Clone directly to skills directory
+gh repo clone btafoya/flightphp-skill ~/.claude/plugins/skills/flightphp
 ```
 
 ### skills.sh
