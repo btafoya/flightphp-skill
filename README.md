@@ -21,7 +21,7 @@ cp -r flightphp-skill ~/.claude/plugins/skills/flightphp
 ### skills.sh
 
 ```bash
-skills install btafoya/flightphp-skill
+npx skills add btafoya/flightphp-skill
 ```
 
 ### ctxt (Context7 CLI)
